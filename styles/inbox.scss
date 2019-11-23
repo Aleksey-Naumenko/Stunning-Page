@@ -19,6 +19,7 @@
 
         @include for-large-up {
             max-width: 461px;
+            text-align: start;
         }
         
         &__subtitle {
