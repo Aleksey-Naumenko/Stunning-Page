@@ -50,7 +50,6 @@
         width: 1140px;
         margin: 0 auto;
         height: 338px;
-        padding-top: 44px;
         display: flex;
         flex-direction: row;
     }
@@ -162,8 +161,6 @@
     @include for-large-up {
         margin-left: auto;
         margin-bottom: 0;
-        margin-top: 0;
-
     }
 
     &__item {

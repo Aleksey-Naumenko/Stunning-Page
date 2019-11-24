@@ -1,6 +1,6 @@
 .inbox {
-    background-color: #FCF0E3;
-    padding: 50px 15px 32px 15px;
+    background-color: #FCF0E366;
+    padding: 50px 15px;
 
     @include for-large-up {
         display: flex;
@@ -15,7 +15,8 @@
     flex-direction: column;
     align-items: center;
     
-    .column {
+    .inbox-column, .column {
+        text-align: start;
 
         @include for-large-up {
             max-width: 461px;
@@ -94,7 +95,7 @@
     }
 }
 
-.note {
+.review {
     background-color: $color-white;
     border-bottom: 4px solid $color-blue;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);

@@ -3,6 +3,7 @@
     border-bottom: 1px solid $color-light-grey;
 
     @include for-large-up {
+        height: 355px;
         padding: 0 0 66px;
         display: flex;
         flex-direction: column;
@@ -31,6 +32,8 @@
 
             @include for-large-up {
                 max-width: 750px;
+                margin-bottom: 34px;
+                text-align: start;
             }
         }
     }
@@ -42,7 +45,7 @@
 
         @include for-large-up {
             position: absolute;
-            right: 26px;
+            right: 0;
             bottom: 0;
         }
     }
@@ -78,7 +81,8 @@
 
         @include for-large-up {
             margin-right: 13px;
-
+            width: 8px;
+            height: 8px;
         }
 
         &:hover {

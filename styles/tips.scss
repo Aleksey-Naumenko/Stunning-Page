@@ -1,4 +1,4 @@
-.tips {
+.features {
     margin-top: 8px;
 
     @include for-large-up {
@@ -6,7 +6,7 @@
     }
 }
 
-.tip {
+.feature {
     padding: 40px 15px 0 15px;
     border-bottom: 1px solid $color-light-grey;
     
