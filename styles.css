@@ -62,7 +62,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url(img/icon-hamburger.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
   display: inline-block;
 }
 .header .logo__description {
@@ -102,7 +102,7 @@
   display: inline-block;
   height: 5px;
   width: 8px;
-  background-image: url(./img/arrow.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
   margin-left: 11px;
 }
 
@@ -319,8 +319,8 @@
 .customers__item {
   height: 94px;
   width: 107px;
-  border-bottom: 1px solid #e3e3e3;
-  border-right: 1px solid #e3e3e3;
+  border-bottom: 1px solid #E3E3E3;
+  border-right: 1px solid #E3E3E3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -361,7 +361,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 34px;
-  color: #009B4D;
+  color: #009b4d;
   margin: 0;
 }
 .features__title {
@@ -648,7 +648,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
-  color: #009B4D;
+  color: #009b4d;
 }
 .tip__title {
   margin: 0;
@@ -1052,67 +1052,67 @@
   margin-top: 110px;
 }
 
-.position {
+.positions {
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 8px;
   display: flex;
   margin-bottom: 15px;
   cursor: pointer;
 }
-.position:last-child {
+.positions:last-child {
   margin-bottom: 0;
 }
 @media screen and (min-width: 1400px) {
-  .position {
+  .positions {
     min-width: 750px;
     min-height: 81px;
     margin-bottom: 15px;
   }
-  .position:last-child {
+  .positions:last-child {
     margin-bottom: 0;
   }
-  .position__text {
+  .positions__text {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
   }
-  .position:hover {
+  .positions:hover {
     background-color: #3040C4;
     color: #fff;
   }
-  .position:hover .position__decoration-dark {
+  .positions:hover .positions__decoration-dark {
     background-color: #3040C4;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
   }
-  .position:hover .position__text .position__location {
+  .positions:hover .positions__text .positions__location {
     color: #fff;
     opacity: 1;
   }
 }
-.position__name {
+.positions__name {
   margin: 18px 0 7px 20px;
   font-size: 22px;
   line-height: 28px;
 }
 @media screen and (min-width: 1400px) {
-  .position__name {
+  .positions__name {
     margin: 0;
     margin-left: 25px;
   }
 }
-.position__location {
+.positions__location {
   margin: 0 0 18px 20px;
   display: block;
   opacity: 0.6;
 }
 @media screen and (min-width: 1400px) {
-  .position__location {
+  .positions__location {
     min-width: 232px;
     margin: 0;
   }
 }
-.position__decoration-dark {
+.positions__decoration-dark {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -1122,7 +1122,7 @@
   margin-left: auto;
 }
 @media screen and (min-width: 1400px) {
-  .position__decoration-dark {
+  .positions__decoration-dark {
     background-color: #fff;
   }
 }

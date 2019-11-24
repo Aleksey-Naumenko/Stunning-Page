@@ -1,7 +1,7 @@
 .header {
     height: 64px;
     width: 100%;
-    background-color: #fff;
+    background-color: $color-white;
     display: flex;
     align-items: center;
     padding-left: 15px;
@@ -11,7 +11,7 @@
         height: 62px;
         margin: auto;
         display: flex;
-        background-color: #F3C6BD;
+        background-color: $header-color;
     }
 
     &__button {
@@ -38,7 +38,7 @@
     &__menu-icon {
         width: 18px;
         height: 13px;
-        background-image: url(img/icon-hamburger.png);
+        background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
         display: inline-block;
     }
 
@@ -62,7 +62,7 @@
     }
 
     &__item {
-        color: #2B292D;
+        color: $text-color-dark;
         text-decoration: none;
         line-height: 25px;
         font-size: 18px;
@@ -81,7 +81,7 @@
         display: inline-block;
         height: 5px;
         width: 8px;
-        background-image: url(./img/arrow.png);
+        background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
         margin-left: 11px;
     }
 }
@@ -110,7 +110,7 @@
     &__description {
         font-size: 18px;
         line-height: 25px;
-        color: #2B292D;
+        color: $text-color-dark;
         opacity: 0.6;
     }
     
@@ -122,10 +122,10 @@
 }
 
 .top-section {
-    background-color: #F3C6BD;
+    background-color: $header-color;
 
     @include for-large-up {
-        background-color: #F3C6BD;
+        background-color: $header-color;
         padding-top: 39px;
     }
 }

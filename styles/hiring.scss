@@ -53,7 +53,7 @@
     }
 }
 
-.position {
+.positions {
     border: 1px solid rgba(43, 41, 45, 0.2);
     border-radius: 8px;
     display: flex;
@@ -84,12 +84,12 @@
             background-color: $btn-color;
             color: $text-color-white;
 
-            .position__decoration-dark {
+            .positions__decoration-dark {
                 background-color: $btn-color;
                 background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
             }
             
-            .position__text .position__location {
+            .positions__text .positions__location {
                 color: $text-color-white;
                 opacity: 1;
             }
